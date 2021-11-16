@@ -1,0 +1,167 @@
+/* =====================
+
+Universal Styling
+
+=======================*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 10px 0;
+}
+
+p {
+    line-height: 140%;
+}
+
+header {
+    background: #b00c19;
+}
+
+.logo {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header nav {
+    width: 65%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    position: relative;
+    top: 60px;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header nav a {
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0 20px;
+    transition: .3s;
+}
+
+header nav a:hover {
+    color: yellow;
+    transition: .3s;
+}
+
+/* =====================
+
+Hero Section
+
+=======================*/
+
+.hero img {
+    width: 100%;
+}
+
+/* =====================
+
+Intro Section Styling
+
+=======================*/
+
+.intro {
+    margin: 80px 0;
+}
+
+/* =====================
+
+Players section
+
+=======================*/
+
+.individual-player {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 32%;
+    width: 32%;
+    padding: 0 10px;
+}
+
+.individual-player img {
+    width: 100%;
+}
+
+.individual-player li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.stats {
+    font-weight: bold;
+}
+
+.goals:before,
+.shots:before,
+.assists:before {
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+
+.goals:before,
+.shots:before,
+.assists:before {
+    content: "\f1e3";
+    font-family: FontAwesome;
+}
+
+.shots:before {
+    content: "\f140";
+    font-family: FontAwesome;
+}
+
+.assists:before {
+    content: "\f007";
+    font-family: FontAwesome;
+}
+
+/* =====================
+
+Anfield Section
+
+=======================*/
+
+.about-anfield {
+    position: relative;
+    margin-top: 50px ;
+}
+
+.about-anfield img {
+    width: 100%;
+}
+
+.about-anfield-text {
+    position: absolute;
+    top: 70px;
+    right: 200px;
+    max-width: 600px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 9px black;
+    font-size: 18px;
+}
